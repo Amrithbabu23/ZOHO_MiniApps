@@ -1,14 +1,22 @@
 # ZOHO_MiniApps
 
+
 I have hereby added a few Java console Applications on the topics:
+
 1.ATM Monitoring
+
 2.Amazon store
+
 3.Railway Ticket booking 
+
 4.Library Management system
+
 5.Splitwise(money sharing) 
+
 6.Vehicle Rental System etc
 
 # ATM
+
 
 Module A : Authentication and Welcome menu 
 Application must authenticate both Borrower and Administrator taking UserID and pin and display a welcome menu based on their role. 
