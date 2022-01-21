@@ -1,8 +1,8 @@
 # ZOHO_MiniApps
 
 I have hereby added a few Java console Applications on the topics:
-1.ATM Monitoring
-2.Amazon store
+1.ATM Monitoring\n
+2.Amazon store\n
 3.Railway Ticket booking 
 4.Library Management system
 5.Splitwise(money sharing) 
