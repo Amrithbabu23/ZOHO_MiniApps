@@ -1,4 +1,5 @@
 # ZOHO_MiniApps
+
 I have hereby added a few Java console Applications on the topics:
 1.ATM Monitoring
 2.Amazon store
@@ -8,6 +9,7 @@ I have hereby added a few Java console Applications on the topics:
 6.Vehicle Rental System etc
 
 # ATM
+
 Module A : Authentication and Welcome menu 
 Application must authenticate both Borrower and Administrator taking UserID and pin and display a welcome menu based on their role. 
 
@@ -25,8 +27,8 @@ Module C : Customer Login
 8.Amount Transfer
 
 # Amazon_Store
-MODULE 1: Admin Login
 
+MODULE 1: Admin Login
 1.Admin must be authenticated against valid username and password
 2.Add / Remove Merchants
 3.View all Products
@@ -34,7 +36,6 @@ MODULE 1: Admin Login
 5.APPROVE MERCHANT
 
 Module 2: Merchant Login
-
 1.New merchant self registration ( Submitted for admin approval post registration)
 2.Merchant login authentication
 3.Add products
@@ -44,7 +45,6 @@ Module 2: Merchant Login
 7.View Sales Report
 
 Module 3: User Login
-
 1.New user self registration
 2.User login authentication
 3.View available products
