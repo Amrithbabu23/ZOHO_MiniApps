@@ -4,15 +4,10 @@
 I have hereby added a few Java console Applications on the topics:
 
 1.ATM Monitoring
-
 2.Amazon store
-
 3.Railway Ticket booking 
-
 4.Library Management system
-
 5.Splitwise(money sharing) 
-
 6.Vehicle Rental System etc
 
 # ATM
