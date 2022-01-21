@@ -1,4 +1,4 @@
-package AMAZON_Store;
+package Amazon_Store;
 
 import java.util.*;
 
