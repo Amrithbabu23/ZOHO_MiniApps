@@ -10,8 +10,6 @@
     6.Vehicle Rental System etc
 
 # ATM
-
-
 Module A : Authentication and Welcome menu 
 
 
