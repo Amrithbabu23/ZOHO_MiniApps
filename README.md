@@ -19,12 +19,14 @@ Module B : Administrator Login
 
     Admin Username: Amrith
     Admin Password: 1234
-    1.Update Amount in ATM -> Update must be checked against maximum threshold value of each denomination. Allowed denominations are 2000,500,200,100.
+    1.Update Amount in ATM -> Update must be checked against maximum threshold value of each denomination. 
+    Allowed denominations are 2000,500,200,100.
 
 Module C : Customer Login
 
     Sample Username: Niveth
     Sample Password: 1234 
+    
     1.Withdraw Amount
     2.Amount withdrawal based on availability on ATM Machine.
     3.Check Balance
