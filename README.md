@@ -89,11 +89,86 @@ Module 1: Admin Login
     
 Module 2: User Login
 
-    1.User ID  - 101
-    2.Password - 1234
+    1.Existing User ID  - 101
+    2.Existing Password - 1234
 
     1.Book Ticket
     2.View Bookings or Cancel Ticket
     3.View Train Details
     4.IRTC Wallet
+    
+ # Library Management System
+ Module 1: Admin Login
+ 
+    1.Admin ID       - 100
+    2.Admin Password - 1234
+
+    1.AddBook
+    2.Book Details
+    3.Modify Book
+    4.Delete Book
+    5.Search Book
+    6.User Details
+    7.Borrow Details
+    8.Return and Fine
+    
+Module 2: User Login
+
+    1.Existing User ID  - 50
+    2.Existing Password - 1234
+
+    1.Borrow Book      
+    2.Borrow History   
+    3.Return
+    4.Wallet
+    
+# Splitwise App
+Module 1: Going out
+
+    1.Selecting Friends group to go out.
+    2.Type of Expense
+    3.Total Expense
+    4.Amount Given by
+    
+Module 2: Splitwise Home
+  
+
+    1.Existing User Name  - Niveth
+    2.Existing Password - 1234
+
+    1.Amount to be given
+    2.Amount to be Recieved
+    3.Expense History
+    4.My Wallet
+    5.Add Wallet amount
+    
+# Vehicle Rental System
+Module 1: Admin Module
+
+
+    1.Admin Username- Amrith
+    2.Admin Password - 1234
+
+    1.Add Vechicle
+    2.View Vechicle
+    3.Modify Vechicle Details
+    4.Search Vechicle
+    5.Delete Vehicle
+    6.Service List
+
+Module 2: User Module
+
+    1.Existing User Name  - Niveth
+    2.Existing Password - 1234
+
+    1.Rent a vehicle  
+    2.Rent History
+    3.Return Vehicle   
+    4.Deposit Balance
+    
+    
+
+    
+    
+
 
