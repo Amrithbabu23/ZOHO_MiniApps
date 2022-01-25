@@ -19,13 +19,14 @@ Module B : Administrator Login
 
     Admin Username: Amrith
     Admin Password: 1234
+    
     1.Update Amount in ATM -> Update must be checked against maximum threshold value of each denomination. 
     Allowed denominations are 2000,500,200,100.
 
 Module C : Customer Login
 
-    Sample Username: Niveth
-    Sample Password: 1234 
+    Existing Username: Niveth
+    Existing Password: 1234 
     
     1.Withdraw Amount
     2.Amount withdrawal based on availability on ATM Machine.
@@ -39,7 +40,9 @@ Module C : Customer Login
 # Amazon_Store
 MODULE 1: Admin Login
 
-
+    Admin Username: Amrith
+    Admin Password: 1234
+    
     1.Admin must be authenticated against valid username and password
     2.Add / Remove Merchants
     3.View all Products
@@ -48,7 +51,9 @@ MODULE 1: Admin Login
 
 Module 2: Merchant Login
 
-
+    Existing Merchant Username: Niveth
+    Existing Merchant Password: 1234
+    
     1.New merchant self registration ( Submitted for admin approval post registration)
     2.Merchant login authentication
     3.Add products
@@ -59,13 +64,15 @@ Module 2: Merchant Login
 
 Module 3: User Login
 
-
+    Existing Username: Sanjay
+    Existing Username: 1234
+    
     1.New user self registration
     2.User login authentication
     3.View available products
     4.Compare prices from different merchant
     5.Add Products to cart
-    6.Checkout from wallet / COD
+    6.Checkout from wallet
     7.List all previous orders
     8.View Purchase History
 
