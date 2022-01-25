@@ -46,10 +46,10 @@ public class Library {
         int admin_id = scan.nextInt();
         System.out.print("Enter Admin Password :");
         int admin_pass = scan.nextInt();
-        if (admin_id == 12 && admin_pass == 1234) {
+        if (admin_id == 100 && admin_pass == 1234) {
             orgAdmin();
         } else {
-            System.out.println("Please Enter valid Admin Credencials....");
+            System.out.println("Please Enter valid Admin Credentials....");
             admin();
         }
     }
@@ -57,8 +57,8 @@ public class Library {
     private static void orgAdmin() {
         System.out.println("\033[H\033[2J");
         System.out.flush();
-        System.out.println("\t\t------- Welcome Admin Arun --------");
-        System.out.println("1.AddBook");
+        System.out.println("\t\t------- Welcome Admin Amrith --------");
+        System.out.println("1.Add Book");
         System.out.println("2.Book Details");
         System.out.println("3.Modify Book");
         System.out.println("4.Delete Book");
@@ -100,7 +100,7 @@ public class Library {
                 library_home();
                 break;
             default:
-                System.out.println("Enter valid Input...");
+                System.out.println("Please Enter valid Input...");
                 orgAdmin();
         }
     }
@@ -117,7 +117,7 @@ public class Library {
             flag++;
         }
         if (flag == 0) {
-            System.out.println("No Return Happened.... ");
+            System.out.println("No Returns so far.... ");
         }
         System.out.println("Press Enter to continue");
         scan.nextLine();
@@ -633,7 +633,7 @@ public class Library {
         int temp_isbn = scan.nextInt();
         for (int i = 0; i < bor_book.size(); i++) {
             if (user_list.get(index).u_id == bor_book.get(i).u_id && bor_book.get(i).b_id == temp_isbn) {
-                System.out.print("Enter the Duration taken for the Book since Borrowed :");
+                System.out.print("Enter the Duration taken for the Book since Borrow :");
                 int days = scan.nextInt();
                 if (days <= 15) {
                     bor_book.remove(i);
@@ -685,7 +685,7 @@ public class Library {
                 return_list.add(new return_fine(user_list.get(index).u_id, temp_isbn, str, duration));
                 bor_book.remove(i);
             } else {
-                System.out.println("Entered ISBN is not in your Borrowed History Please Try again...");
+                System.out.println("Entered ISBN is not in your Borrow History Please Try again...");
             }
         }
         System.out.println("Press Enter to continue");
@@ -715,9 +715,9 @@ public class Library {
     }
 
     private static void user_lib() {
-        user_list.add(new users("Arun", "1234", 1500, 50));
-        user_list.add(new users("Ram", "1111", 1500, 51));
-        user_list.add(new users("Santhose", "2222", 1500, 52));
+        user_list.add(new users("Niveth", "1234", 1500, 50));
+        user_list.add(new users("Rahul", "1111", 1500, 51));
+        user_list.add(new users("Sanjay", "2222", 1500, 52));
     }
 
 }
