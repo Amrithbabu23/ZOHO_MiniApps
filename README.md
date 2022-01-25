@@ -37,8 +37,8 @@ Module C : Customer Login
     7.Direct Deposit
     8.Amount Transfer
 
-# Amazon_Store
-MODULE 1: Admin Login
+# Amazon Store
+Module 1: Admin Login
 
     Admin Username: Amrith
     Admin Password: 1234
@@ -75,4 +75,25 @@ Module 3: User Login
     6.Checkout from wallet
     7.List all previous orders
     8.View Purchase History
+    
+#Railway Ticket Booking
+Module 1: Admin Login
+
+    Admin Username: Amrith
+    Admin Password: 1234
+    
+    1.Train Details
+    2.Booking List
+    3.Train travelling cities
+    4.Waiting List
+    
+Module 2: User Login
+
+    1.User ID  - 101
+    2.Password - 1234
+
+    1.Book Ticket
+    2.View Bookings or Cancel Ticket
+    3.View Train Details
+    4.IRTC Wallet
 
